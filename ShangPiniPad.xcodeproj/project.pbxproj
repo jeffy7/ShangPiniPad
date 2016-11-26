@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DDA7EF1DE98C08008C7097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA7EE1DE98C08008C7097 /* AppDelegate.swift */; };
+		17DDA7F11DE98C08008C7097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA7F01DE98C08008C7097 /* ViewController.swift */; };
+		17DDA7F41DE98C08008C7097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DDA7F21DE98C08008C7097 /* Main.storyboard */; };
+		17DDA7F61DE98C08008C7097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DDA7F51DE98C08008C7097 /* Assets.xcassets */; };
+		17DDA7F91DE98C08008C7097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DDA7F71DE98C08008C7097 /* LaunchScreen.storyboard */; };
+		17DDA8041DE98C08008C7097 /* ShangPiniPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8031DE98C08008C7097 /* ShangPiniPadTests.swift */; };
+		17DDA80F1DE98C08008C7097 /* ShangPiniPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA80E1DE98C08008C7097 /* ShangPiniPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DDA8001DE98C08008C7097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DDA7E31DE98C08008C7097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DDA7EA1DE98C08008C7097;
+			remoteInfo = ShangPiniPad;
+		};
+		17DDA80B1DE98C08008C7097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DDA7E31DE98C08008C7097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DDA7EA1DE98C08008C7097;
+			remoteInfo = ShangPiniPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17DDA7EB1DE98C08008C7097 /* ShangPiniPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShangPiniPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DDA7EE1DE98C08008C7097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17DDA7F01DE98C08008C7097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17DDA7F31DE98C08008C7097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17DDA7F51DE98C08008C7097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17DDA7F81DE98C08008C7097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17DDA7FA1DE98C08008C7097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DDA7FF1DE98C08008C7097 /* ShangPiniPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShangPiniPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DDA8031DE98C08008C7097 /* ShangPiniPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShangPiniPadTests.swift; sourceTree = "<group>"; };
+		17DDA8051DE98C08008C7097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DDA80A1DE98C08008C7097 /* ShangPiniPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShangPiniPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DDA80E1DE98C08008C7097 /* ShangPiniPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShangPiniPadUITests.swift; sourceTree = "<group>"; };
+		17DDA8101DE98C08008C7097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DDA7E81DE98C08008C7097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DDA7FC1DE98C08008C7097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DDA8071DE98C08008C7097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DDA7E21DE98C08008C7097 = {
+			isa = PBXGroup;
+			children = (
+				17DDA7ED1DE98C08008C7097 /* ShangPiniPad */,
+				17DDA8021DE98C08008C7097 /* ShangPiniPadTests */,
+				17DDA80D1DE98C08008C7097 /* ShangPiniPadUITests */,
+				17DDA7EC1DE98C08008C7097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17DDA7EC1DE98C08008C7097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA7EB1DE98C08008C7097 /* ShangPiniPad.app */,
+				17DDA7FF1DE98C08008C7097 /* ShangPiniPadTests.xctest */,
+				17DDA80A1DE98C08008C7097 /* ShangPiniPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DDA7ED1DE98C08008C7097 /* ShangPiniPad */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA7EE1DE98C08008C7097 /* AppDelegate.swift */,
+				17DDA7F01DE98C08008C7097 /* ViewController.swift */,
+				17DDA7F21DE98C08008C7097 /* Main.storyboard */,
+				17DDA7F51DE98C08008C7097 /* Assets.xcassets */,
+				17DDA7F71DE98C08008C7097 /* LaunchScreen.storyboard */,
+				17DDA7FA1DE98C08008C7097 /* Info.plist */,
+			);
+			path = ShangPiniPad;
+			sourceTree = "<group>";
+		};
+		17DDA8021DE98C08008C7097 /* ShangPiniPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8031DE98C08008C7097 /* ShangPiniPadTests.swift */,
+				17DDA8051DE98C08008C7097 /* Info.plist */,
+			);
+			path = ShangPiniPadTests;
+			sourceTree = "<group>";
+		};
+		17DDA80D1DE98C08008C7097 /* ShangPiniPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA80E1DE98C08008C7097 /* ShangPiniPadUITests.swift */,
+				17DDA8101DE98C08008C7097 /* Info.plist */,
+			);
+			path = ShangPiniPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DDA7EA1DE98C08008C7097 /* ShangPiniPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DDA8131DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPad" */;
+			buildPhases = (
+				17DDA7E71DE98C08008C7097 /* Sources */,
+				17DDA7E81DE98C08008C7097 /* Frameworks */,
+				17DDA7E91DE98C08008C7097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShangPiniPad;
+			productName = ShangPiniPad;
+			productReference = 17DDA7EB1DE98C08008C7097 /* ShangPiniPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17DDA7FE1DE98C08008C7097 /* ShangPiniPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DDA8161DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPadTests" */;
+			buildPhases = (
+				17DDA7FB1DE98C08008C7097 /* Sources */,
+				17DDA7FC1DE98C08008C7097 /* Frameworks */,
+				17DDA7FD1DE98C08008C7097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DDA8011DE98C08008C7097 /* PBXTargetDependency */,
+			);
+			name = ShangPiniPadTests;
+			productName = ShangPiniPadTests;
+			productReference = 17DDA7FF1DE98C08008C7097 /* ShangPiniPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17DDA8091DE98C08008C7097 /* ShangPiniPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DDA8191DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPadUITests" */;
+			buildPhases = (
+				17DDA8061DE98C08008C7097 /* Sources */,
+				17DDA8071DE98C08008C7097 /* Frameworks */,
+				17DDA8081DE98C08008C7097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DDA80C1DE98C08008C7097 /* PBXTargetDependency */,
+			);
+			name = ShangPiniPadUITests;
+			productName = ShangPiniPadUITests;
+			productReference = 17DDA80A1DE98C08008C7097 /* ShangPiniPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DDA7E31DE98C08008C7097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = je_ffy;
+				TargetAttributes = {
+					17DDA7EA1DE98C08008C7097 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JKV7V4656F;
+						ProvisioningStyle = Automatic;
+					};
+					17DDA7FE1DE98C08008C7097 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JKV7V4656F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17DDA7EA1DE98C08008C7097;
+					};
+					17DDA8091DE98C08008C7097 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JKV7V4656F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17DDA7EA1DE98C08008C7097;
+					};
+				};
+			};
+			buildConfigurationList = 17DDA7E61DE98C08008C7097 /* Build configuration list for PBXProject "ShangPiniPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DDA7E21DE98C08008C7097;
+			productRefGroup = 17DDA7EC1DE98C08008C7097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DDA7EA1DE98C08008C7097 /* ShangPiniPad */,
+				17DDA7FE1DE98C08008C7097 /* ShangPiniPadTests */,
+				17DDA8091DE98C08008C7097 /* ShangPiniPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DDA7E91DE98C08008C7097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DDA7F91DE98C08008C7097 /* LaunchScreen.storyboard in Resources */,
+				17DDA7F61DE98C08008C7097 /* Assets.xcassets in Resources */,
+				17DDA7F41DE98C08008C7097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DDA7FD1DE98C08008C7097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DDA8081DE98C08008C7097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DDA7E71DE98C08008C7097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DDA7F11DE98C08008C7097 /* ViewController.swift in Sources */,
+				17DDA7EF1DE98C08008C7097 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DDA7FB1DE98C08008C7097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DDA8041DE98C08008C7097 /* ShangPiniPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DDA8061DE98C08008C7097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DDA80F1DE98C08008C7097 /* ShangPiniPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17DDA8011DE98C08008C7097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DDA7EA1DE98C08008C7097 /* ShangPiniPad */;
+			targetProxy = 17DDA8001DE98C08008C7097 /* PBXContainerItemProxy */;
+		};
+		17DDA80C1DE98C08008C7097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DDA7EA1DE98C08008C7097 /* ShangPiniPad */;
+			targetProxy = 17DDA80B1DE98C08008C7097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17DDA7F21DE98C08008C7097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DDA7F31DE98C08008C7097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17DDA7F71DE98C08008C7097 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DDA7F81DE98C08008C7097 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DDA8111DE98C08008C7097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		17DDA8121DE98C08008C7097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DDA8141DE98C08008C7097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JKV7V4656F;
+				INFOPLIST_FILE = ShangPiniPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.ShangPiniPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17DDA8151DE98C08008C7097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JKV7V4656F;
+				INFOPLIST_FILE = ShangPiniPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.ShangPiniPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17DDA8171DE98C08008C7097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JKV7V4656F;
+				INFOPLIST_FILE = ShangPiniPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.ShangPiniPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShangPiniPad.app/ShangPiniPad";
+			};
+			name = Debug;
+		};
+		17DDA8181DE98C08008C7097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JKV7V4656F;
+				INFOPLIST_FILE = ShangPiniPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.ShangPiniPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShangPiniPad.app/ShangPiniPad";
+			};
+			name = Release;
+		};
+		17DDA81A1DE98C08008C7097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JKV7V4656F;
+				INFOPLIST_FILE = ShangPiniPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.ShangPiniPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShangPiniPad;
+			};
+			name = Debug;
+		};
+		17DDA81B1DE98C08008C7097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JKV7V4656F;
+				INFOPLIST_FILE = ShangPiniPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shangpin.ShangPiniPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShangPiniPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DDA7E61DE98C08008C7097 /* Build configuration list for PBXProject "ShangPiniPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DDA8111DE98C08008C7097 /* Debug */,
+				17DDA8121DE98C08008C7097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DDA8131DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DDA8141DE98C08008C7097 /* Debug */,
+				17DDA8151DE98C08008C7097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17DDA8161DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DDA8171DE98C08008C7097 /* Debug */,
+				17DDA8181DE98C08008C7097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17DDA8191DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DDA81A1DE98C08008C7097 /* Debug */,
+				17DDA81B1DE98C08008C7097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DDA7E31DE98C08008C7097 /* Project object */;
+}
