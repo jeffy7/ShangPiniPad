@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class SPMainPageViewController: SPViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
 
@@ -16,25 +17,18 @@ class SPMainPageViewController: SPViewController,UICollectionViewDelegate,UIColl
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "首页"
-//        let layout = UICollectionViewFlowLayout.init()
-//        layout.itemSize = CGSize(width:50,height:50)
-        let layOut = UICollectionViewFlowLayout();
+        let layout = UICollectionViewFlowLayout();
         
-        layOut.scrollDirection = UICollectionViewScrollDirection.vertical;
-        layOut.itemSize = CGSize(width:50,height:50)
-        
+        layout.scrollDirection = UICollectionViewScrollDirection.vertical;
+        layout.itemSize = CGSize(width:50,height:50)
         //垂直方向间距
-        
-        layOut.minimumInteritemSpacing = 10;
-        
+        layout.minimumInteritemSpacing = 10;
         //水平方向间距
-        
-        layOut.minimumLineSpacing = 10;
-        
+        layout.minimumLineSpacing = 10;
         //设置四周得边缘距离
+        layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
         
-        layOut.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
-        collectionView = UICollectionView.init(frame: self.view.frame, collectionViewLayout: layOut)
+        collectionView = UICollectionView.init(frame: self.view.frame, collectionViewLayout: layout)
         collectionView.register(SPMainPageCollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         collectionView.delegate = self
         collectionView.dataSource = self
