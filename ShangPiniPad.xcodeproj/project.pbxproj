@@ -14,6 +14,14 @@
 		17DDA7F91DE98C08008C7097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DDA7F71DE98C08008C7097 /* LaunchScreen.storyboard */; };
 		17DDA8041DE98C08008C7097 /* ShangPiniPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8031DE98C08008C7097 /* ShangPiniPadTests.swift */; };
 		17DDA80F1DE98C08008C7097 /* ShangPiniPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA80E1DE98C08008C7097 /* ShangPiniPadUITests.swift */; };
+		17DDA81F1DE98D8D008C7097 /* SPRootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA81E1DE98D8D008C7097 /* SPRootTabBarViewController.swift */; };
+		17DDA8391DF34A89008C7097 /* SPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8381DF34A89008C7097 /* SPViewController.swift */; };
+		17DDA83B1DF34ACB008C7097 /* SPMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA83A1DF34ACB008C7097 /* SPMainPageViewController.swift */; };
+		17DDA84A1DF34C5D008C7097 /* SPCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8491DF34C5D008C7097 /* SPCategoryViewController.swift */; };
+		17DDA84E1DF34CD9008C7097 /* SPActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA84D1DF34CD9008C7097 /* SPActivityViewController.swift */; };
+		17DDA8541DF34D3A008C7097 /* SPBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8531DF34D3A008C7097 /* SPBrandViewController.swift */; };
+		17DDA8581DF34D6D008C7097 /* SPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8571DF34D6D008C7097 /* SPMineViewController.swift */; };
+		17DDA8661DF357F1008C7097 /* SPMainPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA8651DF357F1008C7097 /* SPMainPageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		17DDA80A1DE98C08008C7097 /* ShangPiniPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShangPiniPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DDA80E1DE98C08008C7097 /* ShangPiniPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShangPiniPadUITests.swift; sourceTree = "<group>"; };
 		17DDA8101DE98C08008C7097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DDA81E1DE98D8D008C7097 /* SPRootTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRootTabBarViewController.swift; sourceTree = "<group>"; };
+		17DDA8381DF34A89008C7097 /* SPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPViewController.swift; sourceTree = "<group>"; };
+		17DDA83A1DF34ACB008C7097 /* SPMainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMainPageViewController.swift; sourceTree = "<group>"; };
+		17DDA8491DF34C5D008C7097 /* SPCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCategoryViewController.swift; sourceTree = "<group>"; };
+		17DDA84D1DF34CD9008C7097 /* SPActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPActivityViewController.swift; sourceTree = "<group>"; };
+		17DDA8531DF34D3A008C7097 /* SPBrandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBrandViewController.swift; sourceTree = "<group>"; };
+		17DDA8571DF34D6D008C7097 /* SPMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMineViewController.swift; sourceTree = "<group>"; };
+		17DDA8651DF357F1008C7097 /* SPMainPageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPMainPageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,13 @@
 		17DDA7ED1DE98C08008C7097 /* ShangPiniPad */ = {
 			isa = PBXGroup;
 			children = (
+				17DDA8551DF34D57008C7097 /* MineViewController */,
+				17DDA8501DF34D05008C7097 /* BrandViewController */,
+				17DDA84B1DF34CAF008C7097 /* ActivityViewController */,
+				17DDA8471DF34C30008C7097 /* CategoryViewController */,
+				17DDA8361DF34A4D008C7097 /* MianViewController */,
+				17DDA8381DF34A89008C7097 /* SPViewController.swift */,
+				17DDA81E1DE98D8D008C7097 /* SPRootTabBarViewController.swift */,
 				17DDA7EE1DE98C08008C7097 /* AppDelegate.swift */,
 				17DDA7F01DE98C08008C7097 /* ViewController.swift */,
 				17DDA7F21DE98C08008C7097 /* Main.storyboard */,
@@ -123,6 +146,95 @@
 				17DDA8101DE98C08008C7097 /* Info.plist */,
 			);
 			path = ShangPiniPadUITests;
+			sourceTree = "<group>";
+		};
+		17DDA8361DF34A4D008C7097 /* MianViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8641DF357D1008C7097 /* View */,
+				17DDA8371DF34A5E008C7097 /* Controller */,
+			);
+			path = MianViewController;
+			sourceTree = "<group>";
+		};
+		17DDA8371DF34A5E008C7097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA83A1DF34ACB008C7097 /* SPMainPageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17DDA8471DF34C30008C7097 /* CategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8481DF34C45008C7097 /* Controller */,
+			);
+			path = CategoryViewController;
+			sourceTree = "<group>";
+		};
+		17DDA8481DF34C45008C7097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8491DF34C5D008C7097 /* SPCategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17DDA84B1DF34CAF008C7097 /* ActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA84C1DF34CBE008C7097 /* Controller */,
+			);
+			path = ActivityViewController;
+			sourceTree = "<group>";
+		};
+		17DDA84C1DF34CBE008C7097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA84D1DF34CD9008C7097 /* SPActivityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17DDA8501DF34D05008C7097 /* BrandViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8521DF34D2E008C7097 /* Controller */,
+			);
+			path = BrandViewController;
+			sourceTree = "<group>";
+		};
+		17DDA8521DF34D2E008C7097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8531DF34D3A008C7097 /* SPBrandViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17DDA8551DF34D57008C7097 /* MineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8561DF34D64008C7097 /* Controller */,
+			);
+			path = MineViewController;
+			sourceTree = "<group>";
+		};
+		17DDA8561DF34D64008C7097 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8571DF34D6D008C7097 /* SPMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		17DDA8641DF357D1008C7097 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17DDA8651DF357F1008C7097 /* SPMainPageCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +299,7 @@
 		17DDA7E31DE98C08008C7097 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SP;
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = je_ffy;
@@ -262,8 +375,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DDA81F1DE98D8D008C7097 /* SPRootTabBarViewController.swift in Sources */,
+				17DDA84A1DF34C5D008C7097 /* SPCategoryViewController.swift in Sources */,
 				17DDA7F11DE98C08008C7097 /* ViewController.swift in Sources */,
 				17DDA7EF1DE98C08008C7097 /* AppDelegate.swift in Sources */,
+				17DDA84E1DF34CD9008C7097 /* SPActivityViewController.swift in Sources */,
+				17DDA8581DF34D6D008C7097 /* SPMineViewController.swift in Sources */,
+				17DDA83B1DF34ACB008C7097 /* SPMainPageViewController.swift in Sources */,
+				17DDA8391DF34A89008C7097 /* SPViewController.swift in Sources */,
+				17DDA8541DF34D3A008C7097 /* SPBrandViewController.swift in Sources */,
+				17DDA8661DF357F1008C7097 /* SPMainPageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +635,7 @@
 				17DDA8151DE98C08008C7097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DDA8161DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPadTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +644,7 @@
 				17DDA8181DE98C08008C7097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DDA8191DE98C08008C7097 /* Build configuration list for PBXNativeTarget "ShangPiniPadUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +653,7 @@
 				17DDA81B1DE98C08008C7097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
